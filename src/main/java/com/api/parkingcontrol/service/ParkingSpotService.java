@@ -14,10 +14,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class ParkingSpotService {
 
-      // Field injection is not recommended
-//    @Autowired
-//    ParkingSpotRepository parkingSpotRepository;
-
+    // Field injection is not recommended
+//  @Autowired
     final ParkingSpotRepository parkingSpotRepository;
 
     public ParkingSpotService(ParkingSpotRepository parkingSpotRepository) {
